@@ -1,19 +1,14 @@
 #include <XBee.h>
 
 XBee xbee = XBee();
-
-typedef union{
-  float number;
-  uint8_t bytes[4];
-}FLOATUNION_t;
-
-//float temp;
 const int LM35 = A0;
 
-uint8_t payload[] = {0, 0, 0, 0};
-XBeeAddress64 addr64 = XBeeAddress64(0x0000, 0xFFFF);
-ZBTxRequest zbTx = ZBTxRequest(addr64, payload, sizeof(payload));
-ZBTxStatusResponse txStatus = ZBTxStatusResponse();
+typedef union {
+  float number;
+  uint8_t bytes[4];
+} FLOATUNION_t;
+
+FLOATUNION_t temperature;
 
 void setup() {
   Serial.begin(9600);
@@ -21,15 +16,11 @@ void setup() {
 }
 
 void loop() {
-  FLOATUNION_t temp;
-  temp.number = (float(analogRead(LM35))*5/(1023)) / 0.01;
-  for(int i = 0; i < 4; i++){
-    Serial.print(temp.bytes[i]);
-    Serial.print(",");
-    payload[i] = temp.bytes[i];
-  }
-  Serial.println("");
-  Serial.println(temp.number);
+  temperature.number = (float(analogRead(LM35)) * 5 / (1023)) /.01;
+  XBeeAddress64 addr64 = XBeeAddress64();
+  addr64.setMsb(0x0);
+  addr64.setLsb(0x0);
+  ZBTxRequest zbTx = ZBTxRequest(addr64, temperature.bytes, sizeof(temperature.bytes));
   xbee.send(zbTx);
-  delay(2000);
-} 
+  delay(1000);
+}
