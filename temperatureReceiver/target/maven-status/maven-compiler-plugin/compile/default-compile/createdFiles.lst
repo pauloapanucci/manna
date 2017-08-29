@@ -1,0 +1,8 @@
+com/ubidots/Value.class
+com/ubidots/ApiObject.class
+com/ubidots/ApiClient.class
+com/ubidots/ServerBridge.class
+com/ubidots/Value$StatisticsFigures.class
+com/ubidots/Variable.class
+com/manna/temprecv/TempRecv.class
+com/ubidots/DataSource.class
