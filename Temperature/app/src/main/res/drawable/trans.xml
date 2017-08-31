@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="true">
+    <item android:drawable="@drawable/mannitoring_xhdpi_00" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_01" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_02" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_03" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_04" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_05" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_06" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_07" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_08" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_09" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_10" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_11" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_12" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_13" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_14" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_15" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_16" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_17" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_18" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_19" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_20" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_21" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_22" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_23" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_24" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_25" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_26" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_27" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_28" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_29" android:duration="100"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_30" android:duration="350"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_31" android:duration="350"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_32" android:duration="350"/>
+    <item android:drawable="@drawable/mannitoring_xhdpi_33" android:duration="350"/>
+</animation-list>

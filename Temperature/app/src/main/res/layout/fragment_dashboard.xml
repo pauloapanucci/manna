@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dashboard_fragment"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.manna.temperature.DashboardFragment">
+
+
+    <TextView
+        android:id="@+id/info_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:text="@string/title_infoHora"/>
+
+    <TextView
+        android:id="@+id/title_minimum"
+        android:layout_below="@id/info_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="36sp"
+        android:text="@string/title_minimum" />
+
+    <TextView
+        android:id="@+id/value_minimum"
+        android:layout_below="@id/title_minimum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="36sp"
+        android:text="@string/temp"/>
+
+    <TextView
+        android:id="@+id/title_mean"
+        android:layout_below="@id/value_minimum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="36sp"
+        android:text="@string/title_mean" />
+
+    <TextView
+        android:id="@+id/value_mean"
+        android:layout_below="@id/title_mean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="36sp"
+        android:text="@string/temp"/>
+    <TextView
+        android:id="@+id/title_maximum"
+        android:layout_below="@id/value_mean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="36sp"
+        android:text="@string/title_maximum" />
+
+    <TextView
+        android:id="@+id/value_maximum"
+        android:layout_below="@id/title_maximum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="36sp"
+        android:text="@string/temp"/>
+
+
+</RelativeLayout>

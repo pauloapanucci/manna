@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MANNitoring</string>
+    <string name="title_home">MANNitoring</string>
+    <string name="title_dashboard">Statistics</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="title_infoHora">Data from the last 24 hours</string>
+    <string name="title_minimum">Minimum</string>
+    <string name="title_mean">Average</string>
+    <string name="title_maximum">Maximum</string>
+    <string name="temp">%.1f</string>
+    <string name="statisticsButton">Button to show statistics</string>
+    <string name="currentTemperature">Current temperature</string>
+    <string name="changeMeasure">Button to change from celsius to fahreinheit and vice-versa</string>
+    <string name="backgroundImage">Background image of display</string>
+</resources>
